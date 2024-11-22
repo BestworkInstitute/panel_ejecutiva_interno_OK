@@ -1,0 +1,10 @@
+# Ignorar dependencias
+node_modules/
+.next/
+
+# Archivos temporales
+.env
+*.log
+
+# Otros
+allfiles.txt
