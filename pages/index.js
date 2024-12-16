@@ -209,7 +209,7 @@ export default function Home() {
                         <div className="right-column">
                             <button className="webmail" onClick={() => openExternal('https://www.bestwork.cl:2096/')}>WEBMAIL</button>
                             <button className="reloj-control" onClick={() => openExternal('https://trabajador.relojcontrol.com')}>RELOJ CONTROL</button>
-                            <button className="Comprobante-pago" onClick={() => openExternal('https://trabajador.relojcontrol.com')}>COMPROBANTE DE PAGO</button>
+                            <button className="Comprobante-pago" onClick={() => openExternal('https://forms.gle/Zcf6azALXg1KdAZh8')}>COMPROBANTE DE PAGO</button>
                         </div>
                     </div>
 
