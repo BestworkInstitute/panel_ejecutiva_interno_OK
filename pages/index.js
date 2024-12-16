@@ -6,6 +6,7 @@ export default function Home() {
     const [result, setResult] = useState('');
     const [showCopy, setShowCopy] = useState(false);
     const [showFormSelection, setShowFormSelection] = useState(false);
+    const [formUrl, setFormUrl] = useState(''); // Nuevo estado para el iframe
 
     useEffect(() => {
         setShowCopy(false);
@@ -45,13 +46,17 @@ export default function Home() {
     };
 
     const showForm = (url) => {
-        window.open(url, '_blank');
+        setFormUrl(url); // Asigna la URL seleccionada al iframe
+    };
+
+    const closeForm = () => {
+        setFormUrl(''); // Cierra el iframe
     };
 
     return (
         <>
             <Head>
-                <title>Best Work</title>
+                <title>Panel Ejecutivas Bestwork</title>
                 <meta charSet="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <style>{`
@@ -141,18 +146,33 @@ export default function Home() {
                     .left-column .serpo { background-color: #FF6380; }
                     .left-column .drive { background-color: #32CD32; }
                     .left-column .active-campaign { background-color: #007BFF; color: white; }
-
-                    .additional-buttons button:hover,
-                    .left-column button:hover,
-                    .right-column button:hover {
-                        opacity: 0.9;
                     }
 
-                    .form-selection button {
-                        width: 90px;
-                        margin: 5px;
-                        padding: 5px;
-                        font-size: 14px;
+                    .iframe-container iframe {
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        border: none;
+                        z-index: 1000;
+                    }
+
+                    .iframe-container button {
+                        position: fixed;
+                        bottom: 20px;
+                        left: 20px;
+                        z-index: 1001;
+                        padding: 10px 15px;
+                        background-color: #ff7f50;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+
+                    .iframe-container button:hover {
+                        background-color: #e06a3d;
                     }
 
                     .logo {
@@ -189,6 +209,7 @@ export default function Home() {
                         <div className="right-column">
                             <button className="webmail" onClick={() => openExternal('https://www.bestwork.cl:2096/')}>WEBMAIL</button>
                             <button className="reloj-control" onClick={() => openExternal('https://trabajador.relojcontrol.com')}>RELOJ CONTROL</button>
+                            <button className="Comprobante-pago" onClick={() => openExternal('https://trabajador.relojcontrol.com')}>COMPROBANTE DE PAGO</button>
                         </div>
                     </div>
 
@@ -214,13 +235,42 @@ export default function Home() {
 
                     {/* Selección de formularios */}
                     {showFormSelection && (
-                        <div className="form-selection">
+                        <div>
                             <button onClick={() => showForm('https://sedsa.activehosted.com/f/38')}>REFERIDOS</button>
-                            <button onClick={() => showForm('https://sedsa.activehosted.com/f/114')}>BIENVENIDA</button>
+                            <button onClick={() => showForm('https://sedsa.activehosted.com/f/496')}>BIENVENIDA</button>
                             <button onClick={() => showForm('https://calendly.com/onboarding_bestwork/onboarding')}>ONBOARDING</button>
                         </div>
                     )}
                 </div>
+
+                {/* Iframe para mostrar los formularios */}
+                {formUrl && (
+    <div 
+        className="iframe-container"
+        style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            backgroundColor: 'rgba(255, 255, 255, 1)', // Fondo blanco para evitar solapamiento
+            zIndex: 999,
+        }}
+    >
+        <iframe 
+            src={formUrl}
+            title="Formulario"
+            style={{
+                width: '100%',
+                height: '100%',
+                border: 'none',
+                zIndex: 1000,
+            }}
+        ></iframe>
+    </div>
+)}
+
+                )
             </main>
         </>
     );
