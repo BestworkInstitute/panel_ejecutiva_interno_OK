@@ -216,7 +216,7 @@ export default function Home() {
                     {/* Formulario de búsqueda */}
                     <form onSubmit={handleSearch}>
                         <h3>Verifica correo del contacto para ingresar a los formularios</h3>
-                        <h5>REFERIDOS - BIENVENIDA - ONBOARDING</h5>
+                        <h5>REFERIDOS - BIENVENIDA Y ONBOARDING</h5>
                         <input
                             type="email"
                             placeholder="Introduce el correo"
@@ -237,8 +237,7 @@ export default function Home() {
                     {showFormSelection && (
                         <div>
                             <button onClick={() => showForm('https://sedsa.activehosted.com/f/38')}>REFERIDOS</button>
-                            <button onClick={() => showForm('https://sedsa.activehosted.com/f/496')}>BIENVENIDA</button>
-                            <button onClick={() => showForm('https://calendly.com/onboarding_bestwork/onboarding')}>ONBOARDING</button>
+                            <button onClick={() => showForm('https://bienvenida-alumno.vercel.app/')}>BIENVENIDA y ONBOARDING</button>
                         </div>
                     )}
                 </div>
@@ -270,7 +269,7 @@ export default function Home() {
     </div>
 )}
 
-                )
+                
             </main>
         </>
     );
