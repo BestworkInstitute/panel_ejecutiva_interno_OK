@@ -146,6 +146,10 @@ export default function Home() {
                     .left-column .serpo { background-color: #FF6380; }
                     .left-column .drive { background-color: #32CD32; }
                     .left-column .active-campaign { background-color: #007BFF; color: white; }
+                    .right-column .webmail { background-color:rgb(237, 172, 51); }
+                    .right-column .reloj-control { background-color:rgb(30, 142, 191); }
+                    .right-column .Comprobante-pago { background-color:rgb(233, 8, 8); }
+                    .right-column .datos-comprobante-pago { background-color: #32CD32; }
                     }
 
                     .iframe-container iframe {
@@ -210,6 +214,7 @@ export default function Home() {
                             <button className="webmail" onClick={() => openExternal('https://www.bestwork.cl:2096/')}>WEBMAIL</button>
                             <button className="reloj-control" onClick={() => openExternal('https://trabajador.relojcontrol.com')}>RELOJ CONTROL</button>
                             <button className="Comprobante-pago" onClick={() => openExternal('https://forms.gle/Zcf6azALXg1KdAZh8')}>COMPROBANTE DE PAGO</button>
+                            <button className="datos-comprobante-pago" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1IOzgb0iTxRrFus-1YUpvP2-Ghbz4bTEr9laun-GvuGQ/edit?gid=770704000#gid=770704000')}>DATOS COMPROBANTE DE PAGO</button>
                         </div>
                     </div>
 
