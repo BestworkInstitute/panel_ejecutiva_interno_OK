@@ -150,6 +150,7 @@ export default function Home() {
                     .right-column .reloj-control { background-color:rgb(30, 142, 191); }
                     .right-column .Comprobante-pago { background-color:rgb(233, 8, 8); }
                     .right-column .datos-comprobante-pago { background-color: #32CD32; }
+                    .left-column .evaluacion { background-color: #32CD00; }
                     }
 
                     .iframe-container iframe {
@@ -209,6 +210,7 @@ export default function Home() {
                             <button className="serpo" onClick={() => openExternal('https://ventab.serpo.cl/inicio/bestwork')}>SERPO</button>
                             <button className="drive" onClick={() => openExternal('https://drive.google.com/drive/folders/1_u7MwZwVaBiJh4eoJdV7JPBGrJCco57h')}>DRIVE</button>
                             <button className="active-campaign" onClick={() => openExternal('https://sedsa.activehosted.com/')}>ACTIVE CAMPAIGN</button>
+                            <button className="evaluacion" onClick={() => openExternal('https://evaluacion-comercial.vercel.app/')}>EVALUACIÓN COMERCIAL</button>
                         </div>
                         <div className="right-column">
                             <button className="webmail" onClick={() => openExternal('https://www.bestwork.cl:2096/')}>WEBMAIL</button>
