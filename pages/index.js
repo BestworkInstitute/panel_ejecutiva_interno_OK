@@ -150,7 +150,7 @@ export default function Home() {
                     .right-column .reloj-control { background-color:rgb(30, 142, 191); }
                     .right-column .Comprobante-pago { background-color:rgb(233, 8, 8); }
                     .right-column .datos-comprobante-pago { background-color: #32CD32; }
-                    .left-column .evaluacion { background-color: #32CD00; }
+                    .left-column .evaluacion { background-color: #0011FF; }
                     }
 
                     .iframe-container iframe {
