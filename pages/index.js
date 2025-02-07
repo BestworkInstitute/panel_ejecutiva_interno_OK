@@ -213,7 +213,7 @@ export default function Home() {
                             <button className="drive" onClick={() => openExternal('https://drive.google.com/drive/folders/1_u7MwZwVaBiJh4eoJdV7JPBGrJCco57h')}>DRIVE</button>
                             <button className="active-campaign" onClick={() => openExternal('https://sedsa.activehosted.com/')}>ACTIVE CAMPAIGN</button>
                             <button className="evaluacion" onClick={() => openExternal('https://evaluacion-comercial.vercel.app/')}>EVALUACIÓN COMERCIAL</button>
-                            <button className="lista" onClick={() => openExternal('https://evaluacion-comercial.vercel.app/')}>LISTA DE SOLICITUD</button>
+                            <button className="lista" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/14oCApNUvad2BE_MIWqNCiXSpKvXOQkUw3eG3RtKZEYs/edit?gid=1286688365#gid=1286688365')}>LISTA DE SOLICITUD</button>
                         </div>
                         <div className="right-column">
                             <button className="webmail" onClick={() => openExternal('https://www.bestwork.cl:2096/')}>WEBMAIL</button>
