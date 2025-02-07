@@ -151,6 +151,8 @@ export default function Home() {
                     .right-column .Comprobante-pago { background-color:rgb(233, 8, 8); }
                     .right-column .datos-comprobante-pago { background-color: #32CD32; }
                     .left-column .evaluacion { background-color: #0011FF; }
+                    .right-column .contacto { background-color: #32CD20; }
+                    .left-column .lista { background-color: #32CD20; }
                     }
 
                     .iframe-container iframe {
@@ -211,12 +213,14 @@ export default function Home() {
                             <button className="drive" onClick={() => openExternal('https://drive.google.com/drive/folders/1_u7MwZwVaBiJh4eoJdV7JPBGrJCco57h')}>DRIVE</button>
                             <button className="active-campaign" onClick={() => openExternal('https://sedsa.activehosted.com/')}>ACTIVE CAMPAIGN</button>
                             <button className="evaluacion" onClick={() => openExternal('https://evaluacion-comercial.vercel.app/')}>EVALUACIÓN COMERCIAL</button>
+                            <button className="lista" onClick={() => openExternal('https://evaluacion-comercial.vercel.app/')}>LISTA DE SOLICITUD</button>
                         </div>
                         <div className="right-column">
                             <button className="webmail" onClick={() => openExternal('https://www.bestwork.cl:2096/')}>WEBMAIL</button>
                             <button className="reloj-control" onClick={() => openExternal('https://trabajador.relojcontrol.com')}>RELOJ CONTROL</button>
                             <button className="Comprobante-pago" onClick={() => openExternal('https://forms.gle/Zcf6azALXg1KdAZh8')}>COMPROBANTE DE PAGO</button>
                             <button className="datos-comprobante-pago" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1IOzgb0iTxRrFus-1YUpvP2-Ghbz4bTEr9laun-GvuGQ/edit?gid=770704000#gid=770704000')}>DATOS COMPROBANTE DE PAGO</button>
+                            <button className="contacto" onClick={() => openExternal('https://docs.google.com/forms/d/e/1FAIpQLScYSWxQKhLQUGk7v5f_hyZXcRHBz9lj5h6ujTlXjYYqhlZZRQ/viewform')}>SOLICITUD INGRESO CONTACTO</button>
                         </div>
                     </div>
 
