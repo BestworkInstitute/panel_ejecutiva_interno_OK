@@ -153,7 +153,7 @@ export default function Home() {
                     .left-column .evaluacion { background-color: #0011FF; }
                     .right-column .contacto { background-color: #FF6347; }
                     .left-column .lista { background-color: #32CD32; }
-                    .left-column .liks { background-color: #32CD20; }
+                    .left-column .liks { background-color: #32CD77; }
                     }
 
                     .iframe-container iframe {
