@@ -151,8 +151,9 @@ export default function Home() {
                     .right-column .Comprobante-pago { background-color:rgb(233, 8, 8); }
                     .right-column .datos-comprobante-pago { background-color: #32CD32; }
                     .left-column .evaluacion { background-color: #0011FF; }
-                    .right-column .contacto { background-color: #32CD20; }
-                    .left-column .lista { background-color: #32CD20; }
+                    .right-column .contacto { background-color: #FF6347; }
+                    .left-column .lista { background-color: #32CD32; }
+                    .left-column .liks { background-color: #32CD20; }
                     }
 
                     .iframe-container iframe {
@@ -214,6 +215,8 @@ export default function Home() {
                             <button className="active-campaign" onClick={() => openExternal('https://sedsa.activehosted.com/')}>ACTIVE CAMPAIGN</button>
                             <button className="evaluacion" onClick={() => openExternal('https://evaluacion-comercial.vercel.app/')}>EVALUACIÓN COMERCIAL</button>
                             <button className="lista" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/14oCApNUvad2BE_MIWqNCiXSpKvXOQkUw3eG3RtKZEYs/edit?gid=1286688365#gid=1286688365')}>LISTA DE SOLICITUD</button>
+                            <button className="links" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1-_N4L2ZvHqRjbvATedqmvefddYaPFFjspMmqFBay-j0/edit?usp=sharing')}>LIKS HISTORIAS</button>
+                                
                         </div>
                         <div className="right-column">
                             <button className="webmail" onClick={() => openExternal('https://www.bestwork.cl:2096/')}>WEBMAIL</button>
