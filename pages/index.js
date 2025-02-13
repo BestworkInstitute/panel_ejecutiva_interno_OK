@@ -215,7 +215,7 @@ export default function Home() {
                             <button className="active-campaign" onClick={() => openExternal('https://sedsa.activehosted.com/')}>ACTIVE CAMPAIGN</button>
                             <button className="evaluacion" onClick={() => openExternal('https://evaluacion-comercial.vercel.app/')}>EVALUACIÓN COMERCIAL</button>
                             <button className="lista" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/14oCApNUvad2BE_MIWqNCiXSpKvXOQkUw3eG3RtKZEYs/edit?gid=1286688365#gid=1286688365')}>LISTA DE SOLICITUD</button>
-                            <button className="links" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1-_N4L2ZvHqRjbvATedqmvefddYaPFFjspMmqFBay-j0/edit?usp=sharing')}>LIKS HISTORIAS</button>
+                            <button className="links" onClick={() => openExternal('https://links-historias.vercel.app/')}>LIKS HISTORIAS</button>
                                 
                         </div>
                         <div className="right-column">
