@@ -220,7 +220,7 @@ export default function Home() {
                         </div>
                         <div className="right-column">
                             <button className="webmail" onClick={() => openExternal('https://www.bestwork.cl:2096/')}>WEBMAIL</button>
-                            <button className="reloj-control" onClick={() => openExternal('https://trabajador.relojcontrol.com')}>RELOJ CONTROL</button>
+                            <button className="reloj-control" onClick={() => openExternal('https://workera.com/portal/login')}>RELOJ CONTROL</button>
                             <button className="Comprobante-pago" onClick={() => openExternal('https://forms.gle/Zcf6azALXg1KdAZh8')}>COMPROBANTE DE PAGO</button>
                             <button className="datos-comprobante-pago" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1IOzgb0iTxRrFus-1YUpvP2-Ghbz4bTEr9laun-GvuGQ/edit?gid=770704000#gid=770704000')}>DATOS COMPROBANTE DE PAGO</button>
                             <button className="contacto" onClick={() => openExternal('https://docs.google.com/forms/d/e/1FAIpQLScYSWxQKhLQUGk7v5f_hyZXcRHBz9lj5h6ujTlXjYYqhlZZRQ/viewform')}>SOLICITUD INGRESO CONTACTO</button>
