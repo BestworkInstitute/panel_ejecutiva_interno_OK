@@ -154,6 +154,8 @@ export default function Home() {
                     .right-column .contacto { background-color: #FF6347; }
                     .left-column .lista { background-color: #32CD32; }
                     .left-column .liks { background-color: #32CD77; }
+                    .right-column .casos { background-color:rgb(30, 142, 191); }
+                    .left-column .ejecu { background-color: #0011FF; }
                     }
 
                     .iframe-container iframe {
@@ -216,6 +218,8 @@ export default function Home() {
                             <button className="evaluacion" onClick={() => openExternal('https://evaluacion-comercial.vercel.app/')}>EVALUACIÓN COMERCIAL</button>
                             <button className="lista" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/14oCApNUvad2BE_MIWqNCiXSpKvXOQkUw3eG3RtKZEYs/edit?gid=1286688365#gid=1286688365')}>LISTA DE SOLICITUD</button>
                             <button className="links" onClick={() => openExternal('https://links-historias.vercel.app/')}>LIKS HISTORIAS</button>
+                            <button className="ejecu" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=0#gid=0')}>EJECUTIVAS</button>
+
                                 
                         </div>
                         <div className="right-column">
@@ -224,6 +228,7 @@ export default function Home() {
                             <button className="Comprobante-pago" onClick={() => openExternal('https://forms.gle/Zcf6azALXg1KdAZh8')}>COMPROBANTE DE PAGO</button>
                             <button className="datos-comprobante-pago" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1IOzgb0iTxRrFus-1YUpvP2-Ghbz4bTEr9laun-GvuGQ/edit?gid=770704000#gid=770704000')}>DATOS COMPROBANTE DE PAGO</button>
                             <button className="contacto" onClick={() => openExternal('https://docs.google.com/forms/d/e/1FAIpQLScYSWxQKhLQUGk7v5f_hyZXcRHBz9lj5h6ujTlXjYYqhlZZRQ/viewform')}>SOLICITUD INGRESO CONTACTO</button>
+                            <button className="casos" onClick={() => openExternal('https://docs.google.com/forms/d/e/1FAIpQLSesFiwsz1oliP4ssdyt_NATzRNEHpRGpwqEw3oV3fUnzZtOEg/viewform')}>ATENCIÓN DE CASOS</button>
                         </div>
                     </div>
 
