@@ -156,6 +156,7 @@ export default function Home() {
                     .left-column .liks { background-color: #32CD77; }
                     .right-column .casos { background-color:rgb(30, 142, 191); }
                     .left-column .ejecu { background-color: #0011FF; }
+                    .right-column .taller { background-color: #52CD32; }
                     }
 
                     .iframe-container iframe {
@@ -229,6 +230,7 @@ export default function Home() {
                             <button className="datos-comprobante-pago" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1IOzgb0iTxRrFus-1YUpvP2-Ghbz4bTEr9laun-GvuGQ/edit?gid=770704000#gid=770704000')}>DATOS COMPROBANTE DE PAGO</button>
                             <button className="contacto" onClick={() => openExternal('https://docs.google.com/forms/d/e/1FAIpQLScYSWxQKhLQUGk7v5f_hyZXcRHBz9lj5h6ujTlXjYYqhlZZRQ/viewform')}>SOLICITUD INGRESO CONTACTO</button>
                             <button className="casos" onClick={() => openExternal('https://docs.google.com/forms/d/e/1FAIpQLSesFiwsz1oliP4ssdyt_NATzRNEHpRGpwqEw3oV3fUnzZtOEg/viewform')}>ATENCIÓN DE CASOS</button>
+                            <button className="taller" onClick={() => openExternal('https://tallerprueba2025.vercel.app/')}>TALLER DE PRUEBA</button>
                         </div>
                     </div>
 
