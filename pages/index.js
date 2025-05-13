@@ -217,8 +217,8 @@ export default function Home() {
                             <button className="drive" onClick={() => openExternal('https://drive.google.com/drive/folders/1_u7MwZwVaBiJh4eoJdV7JPBGrJCco57h')}>DRIVE</button>
                             <button className="active-campaign" onClick={() => openExternal('https://sedsa.activehosted.com/')}>ACTIVE CAMPAIGN</button>
                             <button className="evaluacion" onClick={() => openExternal('https://evaluacion-comercial.vercel.app/')}>EVALUACIÓN COMERCIAL</button>
-                            <button className="lista" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/14oCApNUvad2BE_MIWqNCiXSpKvXOQkUw3eG3RtKZEYs/edit?gid=1286688365#gid=1286688365')}>LISTA DE SOLICITUD</button>
-                            <button className="links" onClick={() => openExternal('https://links-historias.vercel.app/')}>LIKS HISTORIAS</button>
+                            <button className="lista" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rCkHgd5NRNq4Ow0b2eTwG0HRMdTDYDPE572yqO7BdtU/edit?gid=1997490886#gid=1997490886')}>TRATOS ASIGNADOS</button>
+                            <button className="links" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=1834908987#gid=1834908987')}>CONFIRMACIÓN FORMULARIO BIENVENIDA</button>
                             <button className="ejecu" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=0#gid=0')}>EJECUTIVAS</button>
 
                                 
@@ -228,7 +228,7 @@ export default function Home() {
                             <button className="reloj-control" onClick={() => openExternal('https://workera.com/portal/login')}>RELOJ CONTROL</button>
                             <button className="Comprobante-pago" onClick={() => openExternal('https://forms.gle/Zcf6azALXg1KdAZh8')}>COMPROBANTE DE PAGO</button>
                             <button className="datos-comprobante-pago" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1IOzgb0iTxRrFus-1YUpvP2-Ghbz4bTEr9laun-GvuGQ/edit?gid=770704000#gid=770704000')}>DATOS COMPROBANTE DE PAGO</button>
-                            <button className="contacto" onClick={() => openExternal('https://docs.google.com/forms/d/e/1FAIpQLScYSWxQKhLQUGk7v5f_hyZXcRHBz9lj5h6ujTlXjYYqhlZZRQ/viewform')}>SOLICITUD INGRESO CONTACTO</button>
+                            <button className="contacto" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=274774790#gid=274774790')}>CONFIRMACIÓN ONBOARDING</button>
                             <button className="casos" onClick={() => openExternal('https://docs.google.com/forms/d/e/1FAIpQLSesFiwsz1oliP4ssdyt_NATzRNEHpRGpwqEw3oV3fUnzZtOEg/viewform')}>ATENCIÓN DE CASOS</button>
                             <button className="taller" onClick={() => openExternal('https://taller-prueba-uwge.vercel.app/')}>TALLER DE PRUEBA</button>
                         </div>
