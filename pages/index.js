@@ -158,7 +158,7 @@ export default function Home() {
                     .left-column .ejecu { background-color: #0011FF; }
                     .right-column .taller { background-color: #52CD32; }
                     .right-column .informe { background-color: #9f9a9a; }
-                    .right-column .siv { background-color: ##c27ed6; }
+                    .right-column .siv { background-color: #32CD39; }
                     .left-column .casos { background-color: #d48867; }
                     }
 
@@ -239,7 +239,7 @@ export default function Home() {
                             <button className="contacto" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=274774790#gid=274774790')}>CONFIRMACIÓN ONBOARDING</button>
                             <button className="casos" onClick={() => openExternal('https://docs.google.com/forms/d/e/1FAIpQLSesFiwsz1oliP4ssdyt_NATzRNEHpRGpwqEw3oV3fUnzZtOEg/viewform')}>ATENCIÓN DE CASOS</button>
                             <button className="informe" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1UrOtW36oEzJNOc90g3ujUeyb-vSa3GNwUftD78kthr4/edit?gid=2081644876#gid=2081644876')}>INFORME DE VENTA</button>
-                            <button className="siv" onClick={() => openExternal('https://www.google.com')}>SISTEMA INTEGRADO DE VACACIONES NO DISP</button>
+                            <button className="siv" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1Oq4borSz1rcVeuGIywd9sVB-PncV-eDvmri8muJQsWo/edit?gid=837701837#gid=837701837')}>GALLETAS</button>
                         </div>
                     </div>
 
