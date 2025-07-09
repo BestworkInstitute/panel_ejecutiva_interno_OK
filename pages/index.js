@@ -209,7 +209,7 @@ export default function Home() {
                         <button onClick={() => openExternal('https://mensajes-adm.vercel.app/')}>Soporte Académico</button>
                         <button onClick={() => openExternal('https://www.youtube.com/watch?time_continue=9&v=ws7VZnz70Ec')}>Video Campus</button>
                         <button onClick={() => openExternal('https://drive.google.com/drive/folders/1efbd3lupHso7R7uiJbUZhQJgZZFOYe4h')}>Imágenes Apoyo</button>
-                        <button onClick={() => openExternal('https://www.google.cl')}>Testimonios NO DISP</button>
+                        <button onClick={() => openExternal('https://www.google.cl')}>Usuario Prueba Campus Virtual</button>
                         <button onClick={() => openExternal('https://www.google.cl')}>Contrato tipo NO DISP</button>
                     </div>
 
