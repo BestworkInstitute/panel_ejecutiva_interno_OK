@@ -203,11 +203,14 @@ export default function Home() {
                         <button onClick={() => openExternal('https://www.webpay.cl/form-pay/297972')}>Pago $39.990</button>
                         <button onClick={() => openExternal('https://www.webpay.cl/form-pay/297971')}>Pago $29.990</button>
                         <button onClick={() => openExternal('https://www.webpay.cl/form-pay/297968')}>Pago $20.000</button>
+                        <button onClick={() => openExternal('https://www.flow.cl/btn.php?token=qd9nyjy')}>Pago Oral Placement</button>
                         <button onClick={() => openExternal('https://www.riddle.com/view/357576')}>Test Posicion</button>
+                        <button onClick={() => openExternal('https://taller-prueba-uwge.vercel.app/')}>Taller de Prueba</button>
+                        <button onClick={() => openExternal('https://mensajes-adm.vercel.app/')}>Soporte Académico</button>
                         <button onClick={() => openExternal('https://www.youtube.com/watch?time_continue=9&v=ws7VZnz70Ec')}>Video Campus</button>
                         <button onClick={() => openExternal('https://drive.google.com/drive/folders/1efbd3lupHso7R7uiJbUZhQJgZZFOYe4h')}>Imágenes Apoyo</button>
-                        <button onClick={() => openExternal('https://mensajes-adm.vercel.app/')}>Soporte Académico</button>
-                        <button onClick={() => openExternal('https://www.flow.cl/btn.php?token=qd9nyjy')}>Pago Oral Placement</button>
+                        <button onClick={() => openExternal('https://www.google.cl')}>Testimonios NO DISP</button>
+                        <button onClick={() => openExternal('https://www.google.cl')}>Contrato tipo NO DISP</button>
                     </div>
 
                     {/* Sección de botones en dos columnas */}
@@ -231,7 +234,6 @@ export default function Home() {
                             <button className="datos-comprobante-pago" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1IOzgb0iTxRrFus-1YUpvP2-Ghbz4bTEr9laun-GvuGQ/edit?gid=770704000#gid=770704000')}>DATOS COMPROBANTE DE PAGO</button>
                             <button className="contacto" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=274774790#gid=274774790')}>CONFIRMACIÓN ONBOARDING</button>
                             <button className="casos" onClick={() => openExternal('https://docs.google.com/forms/d/e/1FAIpQLSesFiwsz1oliP4ssdyt_NATzRNEHpRGpwqEw3oV3fUnzZtOEg/viewform')}>ATENCIÓN DE CASOS</button>
-                            <button className="taller" onClick={() => openExternal('https://taller-prueba-uwge.vercel.app/')}>TALLER DE PRUEBA</button>
                         </div>
                     </div>
 
