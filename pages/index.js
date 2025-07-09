@@ -222,7 +222,7 @@ export default function Home() {
                             <button className="active-campaign" onClick={() => openExternal('https://sedsa.activehosted.com/')}>ACTIVE CAMPAIGN</button>
                             <button className="evaluacion" onClick={() => openExternal('https://evaluacion-comercial.vercel.app/')}>EVALUACIÓN COMERCIAL</button>
                             <button className="lista" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rCkHgd5NRNq4Ow0b2eTwG0HRMdTDYDPE572yqO7BdtU/edit?gid=1997490886#gid=1997490886')}>TRATOS ASIGNADOS</button>
-                            <button className="links" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=1834908987#gid=1834908987')}>CONFIRMACIÓN FORMULARIO BIENVENIDA</button>
+                            <button className="links" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=1834908987#gid=1834908987')}>CONFIRMACIÓN BIENVENIDA</button>
                             <button className="ejecu" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=0#gid=0')}>EJECUTIVAS</button>
 
                                 
@@ -234,6 +234,8 @@ export default function Home() {
                             <button className="datos-comprobante-pago" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1IOzgb0iTxRrFus-1YUpvP2-Ghbz4bTEr9laun-GvuGQ/edit?gid=770704000#gid=770704000')}>DATOS COMPROBANTE DE PAGO</button>
                             <button className="contacto" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=274774790#gid=274774790')}>CONFIRMACIÓN ONBOARDING</button>
                             <button className="casos" onClick={() => openExternal('https://docs.google.com/forms/d/e/1FAIpQLSesFiwsz1oliP4ssdyt_NATzRNEHpRGpwqEw3oV3fUnzZtOEg/viewform')}>ATENCIÓN DE CASOS</button>
+                            <button className="casos" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1UrOtW36oEzJNOc90g3ujUeyb-vSa3GNwUftD78kthr4/edit?gid=2081644876#gid=2081644876')}>INFORME DE VENTA</button>
+                            <button className="casos" onClick={() => openExternal('https://www.google.com')}>SISTEMA INTEGRADO DE VACACIONES NO DISP</button>
                         </div>
                     </div>
 
