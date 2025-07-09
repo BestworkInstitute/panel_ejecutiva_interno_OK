@@ -157,6 +157,9 @@ export default function Home() {
                     .right-column .casos { background-color:rgb(30, 142, 191); }
                     .left-column .ejecu { background-color: #0011FF; }
                     .right-column .taller { background-color: #52CD32; }
+                    .right-column .informe { background-color: #9f9a9a; }
+                    .right-column .siv { background-color: ##c27ed6; }
+                    .left-column .casos { background-color: #d48867; }
                     }
 
                     .iframe-container iframe {
@@ -209,7 +212,7 @@ export default function Home() {
                         <button onClick={() => openExternal('https://mensajes-adm.vercel.app/')}>Soporte Académico</button>
                         <button onClick={() => openExternal('https://www.youtube.com/watch?time_continue=9&v=ws7VZnz70Ec')}>Video Campus</button>
                         <button onClick={() => openExternal('https://drive.google.com/drive/folders/1efbd3lupHso7R7uiJbUZhQJgZZFOYe4h')}>Imágenes Apoyo</button>
-                        <button onClick={() => openExternal('https://www.google.cl')}>Usuario Prueba Campus Virtual</button>
+                        <button onClick={() => openExternal('https://www.google.cl')}>Usuario Prueba Campus</button>
                         <button onClick={() => openExternal('https://www.google.cl')}>Contrato tipo NO DISP</button>
                     </div>
 
@@ -224,6 +227,7 @@ export default function Home() {
                             <button className="lista" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rCkHgd5NRNq4Ow0b2eTwG0HRMdTDYDPE572yqO7BdtU/edit?gid=1997490886#gid=1997490886')}>TRATOS ASIGNADOS</button>
                             <button className="links" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=1834908987#gid=1834908987')}>CONFIRMACIÓN BIENVENIDA</button>
                             <button className="ejecu" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=0#gid=0')}>EJECUTIVAS</button>
+                            <button className="casos" onClick={() => openExternal('https://www.google.com')}>SISTEMA INTEGRADO DE VACACIONES NO DISP</button>
 
                                 
                         </div>
@@ -234,8 +238,8 @@ export default function Home() {
                             <button className="datos-comprobante-pago" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1IOzgb0iTxRrFus-1YUpvP2-Ghbz4bTEr9laun-GvuGQ/edit?gid=770704000#gid=770704000')}>DATOS COMPROBANTE DE PAGO</button>
                             <button className="contacto" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=274774790#gid=274774790')}>CONFIRMACIÓN ONBOARDING</button>
                             <button className="casos" onClick={() => openExternal('https://docs.google.com/forms/d/e/1FAIpQLSesFiwsz1oliP4ssdyt_NATzRNEHpRGpwqEw3oV3fUnzZtOEg/viewform')}>ATENCIÓN DE CASOS</button>
-                            <button className="casos" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1UrOtW36oEzJNOc90g3ujUeyb-vSa3GNwUftD78kthr4/edit?gid=2081644876#gid=2081644876')}>INFORME DE VENTA</button>
-                            <button className="casos" onClick={() => openExternal('https://www.google.com')}>SISTEMA INTEGRADO DE VACACIONES NO DISP</button>
+                            <button className="informe" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1UrOtW36oEzJNOc90g3ujUeyb-vSa3GNwUftD78kthr4/edit?gid=2081644876#gid=2081644876')}>INFORME DE VENTA</button>
+                            <button className="siv" onClick={() => openExternal('https://www.google.com')}>SISTEMA INTEGRADO DE VACACIONES NO DISP</button>
                         </div>
                     </div>
 
