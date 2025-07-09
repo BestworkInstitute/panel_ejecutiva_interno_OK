@@ -212,8 +212,8 @@ export default function Home() {
                         <button onClick={() => openExternal('https://mensajes-adm.vercel.app/')}>Soporte Académico</button>
                         <button onClick={() => openExternal('https://www.youtube.com/watch?time_continue=9&v=ws7VZnz70Ec')}>Video Campus</button>
                         <button onClick={() => openExternal('https://drive.google.com/drive/folders/1efbd3lupHso7R7uiJbUZhQJgZZFOYe4h')}>Imágenes Apoyo</button>
-                        <button onClick={() => openExternal('https://www.google.cl')}>Usuario Prueba Campus</button>
-                        <button onClick={() => openExternal('https://www.google.cl')}>Contrato tipo NO DISP</button>
+                        <button onClick={() => openExternal('https://docs.google.com/document/d/1ntCwgLe5N4bixw2uVj0CUZK-hP6Gm9tpC8nxZnhqeCk/edit?usp=sharing')}>Usuario Prueba Campus</button>
+                        <button onClick={() => openExternal('https://drive.google.com/file/d/1bFv-8Epch84tjI3f0vlUzz4qYl-nqtBN/view?usp=sharing')}>Contrato tipo</button>
                     </div>
 
                     {/* Sección de botones en dos columnas */}
