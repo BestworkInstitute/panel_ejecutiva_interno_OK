@@ -199,13 +199,14 @@ export default function Home() {
 
                     {/* Botones principales */}
                     <div className="main-buttons">
-                        <button onClick={() => openExternal('https://www.riddle.com/view/357576')}>Test Posiciona</button>
+                        <button onClick={() => openExternal('https://www.webpay.cl/form-pay/297536')}>Pago $45.000</button>
+                        <button onClick={() => openExternal('https://www.webpay.cl/form-pay/297972')}>Pago $39.990</button>
+                        <button onClick={() => openExternal('https://www.webpay.cl/form-pay/297971')}>Pago $29.990</button>
+                        <button onClick={() => openExternal('https://www.webpay.cl/form-pay/297968')}>Pago $20.000</button>
+                        <button onClick={() => openExternal('https://www.riddle.com/view/357576')}>Test Posicion</button>
                         <button onClick={() => openExternal('https://www.youtube.com/watch?time_continue=9&v=ws7VZnz70Ec')}>Video Campus</button>
                         <button onClick={() => openExternal('https://drive.google.com/drive/folders/1efbd3lupHso7R7uiJbUZhQJgZZFOYe4h')}>Imágenes Apoyo</button>
                         <button onClick={() => openExternal('https://mensajes-adm.vercel.app/')}>Soporte Académico</button>
-                        <button onClick={() => openExternal('https://www.flow.cl/app/web/pagarBtnPago.php?token=wtw8dvv')}>Pago $39.990</button>
-                        <button onClick={() => openExternal('https://www.flow.cl/btn.php?token=uk6tvce')}>Pago $29.990</button>
-                        <button onClick={() => openExternal('https://www.flow.cl/btn.php?token=y0hliy3')}>Pago $20.000</button>
                         <button onClick={() => openExternal('https://www.flow.cl/btn.php?token=qd9nyjy')}>Pago Oral Placement</button>
                     </div>
 
