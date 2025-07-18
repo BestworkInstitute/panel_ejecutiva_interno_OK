@@ -160,6 +160,8 @@ export default function Home() {
                     .right-column .informe { background-color: #9f9a9a; }
                     .right-column .siv { background-color: #32CD39; }
                     .left-column .casos { background-color: #d48867; }
+                    .left-column .datos { background-color: #536b92; }
+                    .right-column .horario { background-color: #61a277; }
                     }
 
                     .iframe-container iframe {
@@ -207,7 +209,7 @@ export default function Home() {
                         <button onClick={() => openExternal('https://www.webpay.cl/form-pay/297971')}>Pago $29.990</button>
                         <button onClick={() => openExternal('https://www.webpay.cl/form-pay/297968')}>Pago $20.000</button>
                         <button onClick={() => openExternal('https://www.flow.cl/btn.php?token=qd9nyjy')}>Pago Oral Placement</button>
-                        <button onClick={() => openExternal('https://www.riddle.com/view/357576')}>Test Posicion</button>
+                        <button onClick={() => openExternal('https://bestwork.cl/mide-tu-nivel-con-bestwork/')}>Prueba de Nivel</button>
                         <button onClick={() => openExternal('https://taller-prueba-uwge.vercel.app/')}>Taller de Prueba</button>
                         <button onClick={() => openExternal('https://mensajes-adm.vercel.app/')}>Soporte Académico</button>
                         <button onClick={() => openExternal('https://www.youtube.com/watch?time_continue=9&v=ws7VZnz70Ec')}>Video Campus</button>
@@ -227,7 +229,8 @@ export default function Home() {
                             <button className="lista" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rCkHgd5NRNq4Ow0b2eTwG0HRMdTDYDPE572yqO7BdtU/edit?gid=1997490886#gid=1997490886')}>TRATOS ASIGNADOS</button>
                             <button className="links" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=1834908987#gid=1834908987')}>CONFIRMACIÓN BIENVENIDA</button>
                             <button className="ejecu" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=0#gid=0')}>EJECUTIVAS</button>
-                            <button className="casos" onClick={() => openExternal('https://www.google.com')}>SISTEMA INTEGRADO DE VACACIONES NO DISP</button>
+                            <button className="casos" onClick={() => openExternal('https://sup-three-iota.vercel.app/')}>SISTEMA UNIFICADO DE PERMISOS</button>
+                            <button className="datos" onClick={() => openExternal('https://datos-alumnos-bestwork2025.vercel.app/')}>DATOS ALUMNOS</button>
 
                                 
                         </div>
@@ -240,6 +243,7 @@ export default function Home() {
                             <button className="casos" onClick={() => openExternal('https://docs.google.com/forms/d/e/1FAIpQLSesFiwsz1oliP4ssdyt_NATzRNEHpRGpwqEw3oV3fUnzZtOEg/viewform')}>ATENCIÓN DE CASOS</button>
                             <button className="informe" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1UrOtW36oEzJNOc90g3ujUeyb-vSa3GNwUftD78kthr4/edit?gid=2081644876#gid=2081644876')}>INFORME DE VENTA</button>
                             <button className="siv" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1Oq4borSz1rcVeuGIywd9sVB-PncV-eDvmri8muJQsWo/edit?gid=837701837#gid=837701837')}>GALLETAS</button>
+                            <button className="horario" onClick={() => openExternal('https://drive.google.com/drive/folders/1WXtPTgn1l3y2KAvTOs_X4sGbL5tSsMZV')}>HORARIOS NIVELES</button>
                         </div>
                     </div>
 
