@@ -231,7 +231,7 @@ export default function Home() {
                             <button className="ejecu" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=0#gid=0')}>EJECUTIVAS</button>
                             <button className="casos" onClick={() => openExternal('https://sup-three-iota.vercel.app/')}>SISTEMA UNIFICADO DE PERMISOS</button>
                             <button className="datos" onClick={() => openExternal('https://datos-alumnos-bestwork2025.vercel.app/')}>DATOS ALUMNOS</button>
-
+                            <button className="datos" onClick={() => openExternal('https://links-taller-bestwork.vercel.app/')}>LINK TALLER ALUMNOS</button>
                                 
                         </div>
                         <div className="right-column">
