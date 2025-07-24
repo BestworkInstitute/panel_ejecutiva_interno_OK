@@ -7,6 +7,39 @@ export default function Home() {
     const [showCopy, setShowCopy] = useState(false);
     const [showFormSelection, setShowFormSelection] = useState(false);
     const [formUrl, setFormUrl] = useState(''); // Nuevo estado para el iframe
+const [times, setTimes] = useState({
+  Santiago: '',
+  Magallanes: '',
+  Aysen: '',
+  IslaPascua: '',
+  BuenosAires: ''
+});
+
+useEffect(() => {
+  const updateTimes = () => {
+    const now = new Date();
+    const fmt = (tz) =>
+      new Intl.DateTimeFormat('es-CL', {
+        timeZone: tz,
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false,
+      }).format(now);
+
+    setTimes({
+      Santiago: fmt('America/Santiago'),
+      Magallanes: fmt('America/Punta_Arenas'),
+      Aysen: fmt('America/Punta_Arenas'), // Usa misma zona horaria que Magallanes desde 2022-2023
+      IslaPascua: fmt('Pacific/Easter'),
+      BuenosAires: fmt('America/Argentina/Buenos_Aires')
+    });
+  };
+
+  updateTimes(); // llamada inicial
+  const timer = setInterval(updateTimes, 60000); // cada minuto
+  return () => clearInterval(timer);
+}, []);
+
 
     useEffect(() => {
         setShowCopy(false);
@@ -200,6 +233,17 @@ export default function Home() {
             <main>
                 <div className="container">
                     <img src="https://bestwork.cl/wp-content/uploads/2023/05/Logo.png" alt="Best Work Logo" className="logo" />
+                    
+                    <div style={{ marginBottom: '20px', textAlign: 'center' }}>
+  <p><strong>🕓 Hora Santiago:</strong> {times.Santiago}</p>
+  <p><strong>🕔 Punta Arenas / Magallanes:</strong> {times.Magallanes} (UTC−3)</p>
+  <p><strong>🕔 Aysén:</strong> {times.Aysen} (UTC−3)</p>
+  <p><strong>🕑 Isla de Pascua:</strong> {times.IslaPascua} (UTC−6)</p>
+  <p><strong>🇦🇷 Buenos Aires:</strong> {times.BuenosAires} (UTC−3)</p>
+</div>
+
+
+
                     <h2>Bienvenida a tu Panel de Trabajo</h2>
 
                     {/* Botones principales */}
