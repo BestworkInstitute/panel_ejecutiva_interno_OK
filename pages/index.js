@@ -248,11 +248,7 @@ useEffect(() => {
 
                     {/* Botones principales */}
                     <div className="main-buttons">
-                        <button onClick={() => openExternal('https://www.webpay.cl/form-pay/297536')}>Pago $45.000</button>
-                        <button onClick={() => openExternal('https://www.webpay.cl/form-pay/297972')}>Pago $39.990</button>
-                        <button onClick={() => openExternal('https://www.webpay.cl/form-pay/297971')}>Pago $29.990</button>
-                        <button onClick={() => openExternal('https://www.webpay.cl/form-pay/297968')}>Pago $20.000</button>
-                        <button onClick={() => openExternal('https://www.flow.cl/btn.php?token=qd9nyjy')}>Pago Oral Placement</button>
+                        <button onClick={() => openExternal('https://pagosbestwork.vercel.app/')}>CENTRO DE PAGOS</button>
                         <button onClick={() => openExternal('https://bestwork.cl/mide-tu-nivel-con-bestwork/')}>Prueba de Nivel</button>
                         <button onClick={() => openExternal('https://taller-prueba-uwge.vercel.app/')}>Taller de Prueba</button>
                         <button onClick={() => openExternal('https://mensajes-adm.vercel.app/')}>Soporte Académico</button>
