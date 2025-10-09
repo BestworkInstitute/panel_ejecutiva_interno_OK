@@ -269,7 +269,7 @@ useEffect(() => {
                             <button className="lista" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rCkHgd5NRNq4Ow0b2eTwG0HRMdTDYDPE572yqO7BdtU/edit?gid=1997490886#gid=1997490886')}>TRATOS ASIGNADOS</button>
                             <button className="links" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=1834908987#gid=1834908987')}>CONFIRMACIÓN BIENVENIDA</button>
                             <button className="ejecu" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=0#gid=0')}>EJECUTIVAS</button>
-                            <button className="casos" onClick={() => openExternal('https://sup-three-iota.vercel.app/')}>SISTEMA UNIFICADO DE PERMISOS</button>
+                            <button className="casos" onClick={() => openExternal('https://sistemapermisos-bestwork.vercel.app/')}>SISTEMA UNIFICADO DE PERMISOS</button>
                             <button className="datos" onClick={() => openExternal('https://datos-alumnos-bestwork2025.vercel.app/')}>DATOS ALUMNOS</button>
                             <button className="datos" onClick={() => openExternal('https://links-taller-bestwork.vercel.app/')}>LINK TALLER ALUMNOS</button>
                                 
