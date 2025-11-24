@@ -264,7 +264,7 @@ useEffect(() => {
                             <button className="messagebird" onClick={() => openExternal('https://inbox.messagebird.com/workspace')}>MESSAGEBIRD</button>
                             <button className="serpo" onClick={() => openExternal('https://ventab.serpo.cl/inicio/bestwork')}>SERPO</button>
                             <button className="drive" onClick={() => openExternal('https://drive.google.com/drive/folders/1_u7MwZwVaBiJh4eoJdV7JPBGrJCco57h')}>DRIVE</button>
-                            <button className="active-campaign" onClick={() => openExternal('https://sedsa.activehosted.com/')}>ACTIVE CAMPAIGN</button>
+                            <button className="active-campaign" onClick={() => openExternal('https://preucv.activehosted.com/')}>ACTIVE CAMPAIGN</button>
                             <button className="evaluacion" onClick={() => openExternal('https://evaluacion-comercial-bestwork.vercel.app/')}>EVALUACIÓN COMERCIAL</button>
                             <button className="lista" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rCkHgd5NRNq4Ow0b2eTwG0HRMdTDYDPE572yqO7BdtU/edit?gid=1997490886#gid=1997490886')}>TRATOS ASIGNADOS</button>
                             <button className="links" onClick={() => openExternal('https://docs.google.com/spreadsheets/d/1rQTnbiXqjzdnrKVPDsfAvteQ0Swk8Pr2pKg48EiKx7Q/edit?gid=1834908987#gid=1834908987')}>CONFIRMACIÓN BIENVENIDA</button>
@@ -310,7 +310,7 @@ useEffect(() => {
                     {/* Selección de formularios */}
                     {showFormSelection && (
                         <div>
-                            <button onClick={() => showForm('https://sedsa.activehosted.com/f/38')}>REFERIDOS</button>
+                            <button onClick={() => showForm('https://preucv.activehosted.com/f/183')}>REFERIDOS</button>
                             <button onClick={() => showForm('https://bienvenida-alumno.vercel.app/')}>BIENVENIDA y ONBOARDING</button>
                         </div>
                     )}

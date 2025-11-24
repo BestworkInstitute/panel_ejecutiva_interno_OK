@@ -5,8 +5,8 @@ export default async function handler(req, res) {
         const { email } = req.query;
 
         try {
-            const response = await axios.get('https://sedsa.api-us1.com/api/3/contacts', {
-                headers: { 'Api-Token': 'd2830a151e2d5ae79ee56b3bf8035c9728d27a1c75fbd2fe89eff5f11c57f078c0f93ae1' },
+            const response = await axios.get('https://preucv.api-us1.com/api/3/contacts', {
+                headers: { 'Api-Token': 'c10348d828c7f8616e5ee07c770fdb70b6f5139409dd058af21568abaa2e8a5be5554f91' },
                 params: { email }
             });
 
